@@ -1,5 +1,5 @@
-import {Plugin} from "prosemirror-state"
-import {dropPoint} from "prosemirror-transform"
+import {Plugin} from "../../prosemirror-state/src/index.js"
+import {dropPoint} from "../../prosemirror-transform/src/index.js"
 
 export function dropCursor(options = {}) {
   return new Plugin({
